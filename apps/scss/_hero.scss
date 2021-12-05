@@ -20,5 +20,16 @@
             object-fit: cover;
         }
     }
+    button, .button{
+        display: inline-block;
+        padding: 0.875rem 2.1875rem;
+        background-color: white;
+        border: 0;
+        border-radius: 50px;
+        cursor: pointer;
+        color: black;
+        font-size: 400;
+        text-decoration: none;
+    }
 
 }
