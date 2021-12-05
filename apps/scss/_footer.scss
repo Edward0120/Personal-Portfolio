@@ -1,0 +1,35 @@
+.footer{
+    background-color: hsl(208, 31%, 48%);
+    padding: 2.55rem;
+    //height: 100%;
+
+    &__social{
+        display: flex;
+        .fa-facebook-square{
+            color: white;
+            font-size: 50px;
+            transition: all 150ms ease-in-out;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+        .fa-linkedin{
+            color: white;
+            font-size: 50px;
+            transition: all 150ms ease-in-out;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+        a:not(:last-child){
+            margin-right: 1rem;
+        }
+
+
+    }
+    h2{
+        font-weight: 300;
+        margin-top: 0;
+        color: white;
+    }
+}
