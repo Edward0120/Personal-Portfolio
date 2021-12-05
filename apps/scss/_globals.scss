@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+}
+p{
+    color: white;
+    width: 75%;
+}
+
+.container{
+    max-width: 69.375rem;
+    margin: 0 auto;
+
+    &--pall{
+        padding-top: 4.375rem;
+        padding-bottom: 4.375rem;
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+    }
+
+    &--py{
+        padding-top: 4.375rem;
+        padding-bottom: 4.375rem;
+    }
+
+    &--px{
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+    }
+
+    &--pt{
+        padding-top: 4.375rem;
+    }
+
+    &--pt{
+        padding-right: 1.5rem;
+    }
+
+    &--pb{
+        padding-bottom: 4.375rem;
+    }
+
+    &--pl{
+        padding-left: 1.5rem;
+    }
+}
