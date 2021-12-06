@@ -2,6 +2,7 @@ html{
     height: -webkit-fill-available;
 }
 body{
+    background-color: hsl(187, 75%, 63%);
     margin: 0;
     padding: 0;
     height: -webkit-fill-available;
@@ -12,11 +13,17 @@ h1{
     font-weight: 500;
     color: white;
     font-size: 50px;
+    margin-bottom: 1px;
 }
 p{
     font-weight: 300;
     color: white;
     width: 75%;
+}
+span{
+    font-weight: 300;
+    font-size: 30px;
+    color: hsl(208, 38%, 43%);
 }
 
 .container{
